@@ -19,5 +19,5 @@ Dataset of urls is taken from DMOZ (https://dmoz-odp.org/), with only the first 
 - Each Url gets classified using the 15 binary classifiers, and only classification with confidence >= 70% are taken into consideration, and thus the classification is multilabel classification.
 - Dockerfile is created to deploy a FastAPI endpoint for multilabel classification:
   - Classification endpoint is available under: /v1/category/predict
-  - API endpoint docs (generated with OpenAPI) is available under: /docs
+  - API endpoint docs (generated with OpenAPI Specifications) is available under: /docs
 

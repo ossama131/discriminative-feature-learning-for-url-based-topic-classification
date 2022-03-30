@@ -21,3 +21,5 @@ Dataset of urls is taken from DMOZ (https://dmoz-odp.org/), with only the first 
   - Classification endpoint is available under: /v1/category/predict
   - API endpoint docs (generated with OpenAPI Specifications) is available under: /docs
 
+
+Ref: Rajalakshmi, R., & Aravindan, C. (2018, October). An effective and discriminative feature learning for URL based web page classification. In 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC) (pp. 1374-1379). IEEE.

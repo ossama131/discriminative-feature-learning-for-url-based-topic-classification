@@ -17,5 +17,7 @@ Dataset of urls is taken from DMOZ (https://dmoz-odp.org/), with only the first 
   -Train any classifer based on those features (that have fixed size vocabulary), here an SVM with Linear kernel is trained (just as baseline, not optimal classifier, as there are training dataset with size >> 10k)
 
 - Each Url gets classified using the 15 binary classifiers, and only classification with confidence >= 70% are taken into consideration, and thus the classification is multilabel classification.
-- Dockerfile is created to deploy a FastAPI endpoint for multilabel classification.
+- Dockerfile is created to deploy a FastAPI endpoint for multilabel classification:
+  - Classification endpoint is available under: /v1/category/predict
+  - API endpoint docs (generated with OpenAPI) is available under: /docs
 
